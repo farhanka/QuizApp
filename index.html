@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    
+    <title>Quiz</title>
+    <link rel="stylesheet" href="app.css" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="home" class="flex-center flex-column">
+        <h1>Quizzer</h1>
+        <form action="submit">
+          <input type="text" id="jumlahSoal" placeholder="Jumlah Soal (1-50)">
+        </form>
+        <a class="btn" href="/game.html">Play</a>
+      </div>
+    </div>
+  </body>
+</html>
+
+<script >
+  const limit = document.getElementById("jumlahSoal").value;
+   console.log(limit);
+  
+
+</script>
+
+

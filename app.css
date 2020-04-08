@@ -1,0 +1,132 @@
+:root {
+  background-color: white;
+  font-size: 62.5%;
+  }
+   
+  
+  * {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #333;
+  }
+  
+  
+  
+h1,h2,h3,h4 {
+      margin-bottom: 1rem;
+ }
+  
+  
+  h1 {
+  
+    font-size: 5.4rem;
+      color: #3b3b3b;
+      margin-bottom: 5rem;
+  
+  }
+    
+    h1 > span {
+      font-size: 2.4rem;
+      font-weight: 500;
+  
+  }
+   
+    h2 {
+      font-size: 4.2rem;
+      margin-bottom: 4rem;
+      font-weight: 700;
+    }
+    
+    h3 {
+      font-size: 2.8rem;
+      font-weight: 500;
+    }
+    
+    /* UTILITIES */
+    
+    .container {
+      width: 100vw;
+      height: 90vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      max-width: 80rem;
+      margin: auto;
+      padding: 10rem;
+    background: -webkit-linear-gradient(top, #a6f77b, #2dbd6e);
+    border-radius: 25px;
+    margin-top: 2%;
+   
+ }
+ 
+ 
+ 
+ .container > * {
+   width: 100%; 
+ }
+ 
+ 
+ .flex-column {
+ 
+   display: flex;
+   flex-direction: column;
+ 
+ }
+ 
+  
+  
+  .flex-center {
+     justify-content: center;
+     align-items: center;
+   }
+ 
+ 
+ 
+ .justify-center {
+    justify-content: center;
+   }
+  
+  
+  
+  .text-center {
+     text-align: center;
+   }
+  
+   
+  .hidden {
+     display: none;
+   }
+  
+  /* BUTTONS */
+  
+  .btn {
+  
+   font-size: 1.8rem;
+    padding: 1rem 0;
+    width: 20rem;
+    text-align: center;
+    border: 0.1rem solid  #373a38;
+    margin-bottom: 1rem;
+    text-decoration: none;
+    color: #383838;
+    background-color: white;
+  }
+  #jumlahSoal::placeholder{
+    color: grey;
+      
+  }
+
+  #jumlahSoal{
+    padding: 1.2rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 0.4rem 1.4rem 0 rgba(60, 61, 61, 0.5);
+  }
+  
+  .btn:hover {
+   cursor: pointer;
+    background: -webkit-linear-gradient(top, #a6f77b, #2dbd6e);
+    transform: translateY(-0.1rem);
+    transition: transform 150ms;
+  }
+ 
